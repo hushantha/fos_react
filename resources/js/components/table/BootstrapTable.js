@@ -14,7 +14,7 @@ import {
 import avatar1 from "../../../images/avatar/1.jpg";
 import avatar2 from "../../../images/avatar/2.jpg";
 import avatar3 from "../../../images/avatar/3.jpg";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 const BootstrapTable = () => {
   const chackbox = document.querySelectorAll("#customCheckBox input");

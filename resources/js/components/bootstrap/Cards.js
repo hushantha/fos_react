@@ -9,7 +9,7 @@ import img2 from '../../../images/card/2.png'
 import img3 from '../../../images/card/3.png'
 /// Bootstrap
 import { Row, Card, Col, Button, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link } from '@inertiajs/inertia-react'
 
 const UiCards = () => {
   return (

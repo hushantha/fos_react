@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 //** Import Image */
 import profile01 from "../../../../images/profile/1.jpg";
 import profile02 from "../../../../images/profile/2.jpg";

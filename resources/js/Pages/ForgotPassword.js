@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../../images/logo-full.png";
+// import { Link } from "@inertiajs/inertia-react";
+// import Logo from "../../images/logo-full.png";
 
 const ForgotPassword = ({ history }) => {
   const onSubmit = (e) => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import PerfectScrollbar from "react-perfect-scrollbar";
 
 //Images

@@ -1,55 +1,55 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "@inertiajs/inertia-react";
 
 // Page titie
-import PageTitle from "../layouts/PageTitle";
+// import PageTitle from "../layouts/PageTitle";
 
 /// Scroll
-import PerfectScrollbar from "react-perfect-scrollbar";
+// import PerfectScrollbar from "react-perfect-scrollbar";
 
 // BS
-import { Dropdown, Tab, Nav } from "react-bootstrap";
+// import { Dropdown, Tab, Nav } from "react-bootstrap";
 
 // images
-import avatar1 from "../../images/avatar/1.jpg";
-import avatar2 from "../../images/avatar/2.jpg";
-import avatar3 from "../../images/avatar/3.jpg";
-import avatar4 from "../../images/avatar/4.jpg";
-import profile from "../../images/profile/profile.png";
-import bg5 from "../../images/big/img5.jpg";
-import bg1 from "../../images/big/img1.jpg";
+// import avatar1 from "../../images/avatar/1.jpg";
+// import avatar2 from "../../images/avatar/2.jpg";
+// import avatar3 from "../../images/avatar/3.jpg";
+// import avatar4 from "../../images/avatar/4.jpg";
+// import profile from "../../images/profile/profile.png";
+// import bg5 from "../../images/big/img5.jpg";
+// import bg1 from "../../images/big/img1.jpg";
 
-import TotalStudent from "../components/Sego/WidgetBasic/TotalStudent";
-import NewStudent from "../components/Sego/WidgetBasic/NewStudent";
-import TotalCourse from "../components/Sego/WidgetBasic/TotalCourse";
-import FeeCollection from "../components/Sego/WidgetBasic/FeeCollection";
-import VisitorActivity from "../components/Sego/WidgetBasic/VisitorActivity";
-import ActiveUser from "../components/Sego/WidgetBasic/ActiveUser";
-import BloodPressur from "../components/Sego/WidgetBasic/BloodPressure";
-import HeartRate from "../components/Sego/WidgetBasic/HeartRate";
-import GlucoseRate from "../components/Sego/WidgetBasic/GlucoseRate";
-import Clolesterol from "../components/Sego/WidgetBasic/Clolesterol";
-import PowerBar from "../components/Sego/WidgetBasic/PowerBar";
-import PowerLine from "../components/Sego/WidgetBasic/PowerLine";
-import ViewProject from "../components/Sego/WidgetBasic/ViewProject";
-import Latency from "../components/Sego/WidgetBasic/Latency";
-import LifeTimeEarning from "../components/Sego/WidgetBasic/LifeTimeEarning";
-import Widget1 from "../components/Sego/WidgetBasic/Widget1";
-import Widget2 from "../components/Sego/WidgetBasic/Widget2";
-import MarketNow from "../components/Sego/WidgetBasic/MarketNow";
-import SalesAnalysis from "../components/Sego/WidgetBasic/SalesAnalysis";
-import TopProducts1 from "../components/Sego/WidgetBasic/TopProducts1";
-import TopProducts2 from "../components/Sego/WidgetBasic/TopProducts2";
-import WeeklySales1 from "../components/Sego/WidgetBasic/WeeklySales1";
-import WeeklySales2 from "../components/Sego/WidgetBasic/WeeklySales2";
-import AllSell1 from "../components/Sego/WidgetBasic/AllSell1";
-import AllSell2 from "../components/Sego/WidgetBasic/AllSell2";
+// import TotalStudent from "../components/Sego/WidgetBasic/TotalStudent";
+// import NewStudent from "../components/Sego/WidgetBasic/NewStudent";
+// import TotalCourse from "../components/Sego/WidgetBasic/TotalCourse";
+// import FeeCollection from "../components/Sego/WidgetBasic/FeeCollection";
+// import VisitorActivity from "../components/Sego/WidgetBasic/VisitorActivity";
+// import ActiveUser from "../components/Sego/WidgetBasic/ActiveUser";
+// import BloodPressur from "../components/Sego/WidgetBasic/BloodPressure";
+// import HeartRate from "../components/Sego/WidgetBasic/HeartRate";
+// import GlucoseRate from "../components/Sego/WidgetBasic/GlucoseRate";
+// import Clolesterol from "../components/Sego/WidgetBasic/Clolesterol";
+// import PowerBar from "../components/Sego/WidgetBasic/PowerBar";
+// import PowerLine from "../components/Sego/WidgetBasic/PowerLine";
+// import ViewProject from "../components/Sego/WidgetBasic/ViewProject";
+// import Latency from "../components/Sego/WidgetBasic/Latency";
+// import LifeTimeEarning from "../components/Sego/WidgetBasic/LifeTimeEarning";
+// import Widget1 from "../components/Sego/WidgetBasic/Widget1";
+// import Widget2 from "../components/Sego/WidgetBasic/Widget2";
+// import MarketNow from "../components/Sego/WidgetBasic/MarketNow";
+// import SalesAnalysis from "../components/Sego/WidgetBasic/SalesAnalysis";
+// import TopProducts1 from "../components/Sego/WidgetBasic/TopProducts1";
+// import TopProducts2 from "../components/Sego/WidgetBasic/TopProducts2";
+// import WeeklySales1 from "../components/Sego/WidgetBasic/WeeklySales1";
+// import WeeklySales2 from "../components/Sego/WidgetBasic/WeeklySales2";
+// import AllSell1 from "../components/Sego/WidgetBasic/AllSell1";
+// import AllSell2 from "../components/Sego/WidgetBasic/AllSell2";
 
 const Widget = () => {
   return (
     <Fragment>
       {/* <Ext /> */}
-      <PageTitle activeMenu="Statistics" motherMenu="Widget" />
+      {/* <PageTitle activeMenu="Statistics" motherMenu="Widget" /> */}
       <div className="row">
         <div className="col-xl-4 col-xxl-6 col-lg-6">
           <div className="card">

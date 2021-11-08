@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/logo-full.png";
+// import Logo from "../../images/logo-full.png";
 
 const LockScreen = ({ history }) => {
   const submitHandler = (e) => {

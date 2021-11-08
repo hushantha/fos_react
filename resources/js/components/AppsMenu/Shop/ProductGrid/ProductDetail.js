@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import productData from "../productData";
 import { Tab, Nav } from "react-bootstrap";
 

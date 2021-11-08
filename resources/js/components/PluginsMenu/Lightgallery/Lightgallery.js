@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from '@inertiajs/inertia-react';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper} from 'simple-react-lightbox';
 

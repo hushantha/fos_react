@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Button, Dropdown, Modal } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import { SRLWrapper } from "simple-react-lightbox";
 //** Import Image */
 import profile01 from "../../../../images/profile/1.jpg";

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import { Dropdown } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 // Dish
 import dish_pic1 from "../../../../images/dish/pic1.jpg";

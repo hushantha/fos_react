@@ -10,7 +10,7 @@ const appName = window.document.getElementsByTagName('title')[0]?.innerText || '
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
-    resolve: (name) => require(`./Pages/${name}.js`),
+    resolve: (name) => require(`./Pages/${name}.jsx`),
     setup({ el, App, props }) {
         render(<App {...props}/>, el)
     },

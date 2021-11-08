@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Table, Dropdown } from "react-bootstrap";
 
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 // import data from "./tableData.js";
 
 const PatientTable = () => {

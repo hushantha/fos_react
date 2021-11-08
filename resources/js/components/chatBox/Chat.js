@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from '@inertiajs/inertia-react'
 
 /// Images
-import avatar1 from '../../../images/avatar/1.jpg'
-import avatar2 from '../../../images/avatar/2.jpg'
-import avatar3 from '../../../images/avatar/3.jpg'
-import avatar4 from '../../../images/avatar/4.jpg'
-import avatar5 from '../../../images/avatar/5.jpg'
+// import avatar1 from '../../../images/avatar/1.jpg'
+// import avatar2 from '../../../images/avatar/2.jpg'
+// import avatar3 from '../../../images/avatar/3.jpg'
+// import avatar4 from '../../../images/avatar/4.jpg'
+// import avatar5 from '../../../images/avatar/5.jpg'
 import MsgBox from './MsgBox'
 
 const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
@@ -91,7 +91,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar1}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -107,7 +107,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar2}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -123,7 +123,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar3}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -139,7 +139,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar4}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -156,7 +156,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar5}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -172,7 +172,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar1}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -188,7 +188,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar2}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -205,7 +205,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar3}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -221,7 +221,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar4}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -238,7 +238,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar5}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -254,7 +254,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar1}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -270,7 +270,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar2}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -286,7 +286,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar3}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -303,7 +303,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar4}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -319,7 +319,7 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
               <div className='d-flex bd-highlight'>
                 <div className='img_cont'>
                   <img
-                    src={avatar5}
+                    src={""}
                     className='rounded-circle user_img'
                     alt=''
                   />
@@ -335,8 +335,8 @@ const Chat = ({ PerfectScrollbar, toggleChatBox, toggleTab }) => {
         </PerfectScrollbar>
       </div>
       <MsgBox
-        avatar1={avatar1}
-        avatar2={avatar2}
+        avatar1={""}
+        avatar2={""}
         openMsg={openMsg}
         PerfectScrollbar={PerfectScrollbar}
         offMsg={() => setOpenMsg(false)}

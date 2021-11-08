@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { Table, Pagination } from "react-bootstrap";
 
 import tableData from "./tableData.js";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 const BasicDatatable = () => {
   const [data, setData] = useState(

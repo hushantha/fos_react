@@ -3,7 +3,7 @@ import { Fragment } from "react";
 
 import PageTitle from "../../layouts/PageTitle.js";
 import { Row, Card, Nav, Col, Pagination } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 const UiPagination = () => {
    const active = 1;

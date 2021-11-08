@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import { Dropdown, Tab, Nav } from "react-bootstrap";
 import DoughnutChart3 from "../Sego/Analytics/DoughnutChart3";
 import ActivityLineChart from "../Sego/Analytics/ActivityLineChart";

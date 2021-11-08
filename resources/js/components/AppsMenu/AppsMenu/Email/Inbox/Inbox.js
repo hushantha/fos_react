@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import InboxMessage from "./InboxMessage";
 import { Dropdown } from "react-bootstrap";
 import PageTitle from "../../../../layouts/PageTitle";

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 import PageTItle from "../../../layouts/PageTitle";
 import { SplitButton, ButtonGroup, Dropdown } from "react-bootstrap";

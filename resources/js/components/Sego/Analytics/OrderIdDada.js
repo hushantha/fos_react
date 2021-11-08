@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 //** Import Image */
 import Product5 from "../../../../images/card/pic5.jpg";

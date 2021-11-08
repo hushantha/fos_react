@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Table, Pagination, Badge } from "react-bootstrap";
 
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import data from "./tableData.js";
 
 const FeesCollection = () => {

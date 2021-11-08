@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-// import { Link } from 'react-router-dom';
+// import { Link } from '@inertiajs/inertia-react';
 import { Row, Col, Card, Accordion } from 'react-bootstrap'
 import PageTitle from '../../layouts/PageTitle'
 

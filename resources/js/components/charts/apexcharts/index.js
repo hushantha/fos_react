@@ -1,6 +1,6 @@
 import React from "react";
 import loadable from "@loadable/component";
-// import { Link } from 'react-router-dom';
+// import { Link } from '@inertiajs/inertia-react';
 import { Row, Col, Card } from "react-bootstrap";
 
 import pMinDelay from "p-min-delay";

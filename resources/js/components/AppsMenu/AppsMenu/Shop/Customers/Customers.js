@@ -5,7 +5,7 @@ import { Dropdown } from "react-bootstrap";
 /// images
 import avartar5 from "../../../../../images/avatar/5.png";
 import avartar1 from "../../../../../images/avatar/1.png";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 
 const Customers = () => {
    const drop = (

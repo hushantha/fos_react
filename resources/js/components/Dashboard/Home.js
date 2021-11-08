@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import pMinDelay from "p-min-delay";
 import loadable from "@loadable/component";
 import { Dropdown, Nav, Tab } from "react-bootstrap";

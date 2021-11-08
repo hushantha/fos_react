@@ -9,11 +9,12 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
+        <!-- Theme Styles -->
+         @include('includes.header_files')
+
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
-        <!-- Scripts -->
-         @include('includes.header_files')
         @routes
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>

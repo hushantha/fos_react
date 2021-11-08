@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import data from "./tableData.js";
 
 const ProfileDatatable = () => {

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@inertiajs/inertia-react";
 import profileImage from "../../../../../images/avatar/1.jpg";
 
 import { Dropdown } from "react-bootstrap";
