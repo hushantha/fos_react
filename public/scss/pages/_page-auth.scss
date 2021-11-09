@@ -1,4 +1,4 @@
-.authincation-content{
+.authincation-content {
     background: $primary;
     box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
     border-radius: 5px;
@@ -6,10 +6,10 @@
         background: $dark-card;
         box-shadow: none;
     }
-
 }
-.welcome-content{
-    background: url('./../images/1.jpg');
+
+.welcome-content {
+    background: url('./../public/images/1.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -18,7 +18,7 @@
     z-index: 1;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    &::after{
+    &::after {
         content: '';
         position: absolute;
         left: 0;
@@ -31,36 +31,34 @@
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
-    .welcome-title{
+    .welcome-title {
         color: $white;
         font-weight: 500;
         font-size: 20px;
     }
-    p{
+    p {
         color: $white;
     }
-
-    .brand-logo{
-        a{
+    .brand-logo {
+        a {
             display: inline-block;
             margin-bottom: 20px;
             font-weight: 700;
             color: $white;
             font-size: 20px;
-        img{
-            width: 100px;
-        }
+            img {
+                width: 100px;
+            }
         }
     }
-
-    .intro-social{
+    .intro-social {
         position: absolute;
         bottom: 75px;
-        ul{
+        ul {
             margin-bottom: 0;
-            li{
+            li {
                 display: inline-block;
-                a{
+                a {
                     color: $white;
                     font-size: 14px;
                     padding: 0px 7px;
@@ -69,15 +67,16 @@
         }
     }
 }
-.auth-form{
+
+.auth-form {
     padding: 50px 50px;
-	@include respond('phone') {
-		padding: 30px;
-	}	
-    .btn{
+    @include respond('phone') {
+        padding: 30px;
+    }
+    .btn {
         font-weight: 700;
     }
-    .page-back{
+    .page-back {
         display: inline-block;
         margin-bottom: 15px;
     }
