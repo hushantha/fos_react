@@ -31,5 +31,9 @@
         "react-resize-detector": "^6.7.6",
         "tailwindcss": "^2.0.1",
         "vue-loader": "^16.1.2"
+    },
+    "dependencies": {
+        "html5-file-selector": "^2.1.0",
+        "react-dropzone-uploader": "^2.11.0"
     }
 }

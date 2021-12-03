@@ -41,7 +41,7 @@ const Layout = ({ width, children }) => {
                 <PartialLayout />
                 <div className={`${!pagePath ? "content-body" : ""}`}>
                     <div
-                        className={`${!pagePath ? "container-fluid" : ""}`}
+                        className={`${!pagePath ? "container-fluid" : ""} p-2`}
                         style={{ minHeight: window.screen.height - 60 }}
                     >
                         {children}
